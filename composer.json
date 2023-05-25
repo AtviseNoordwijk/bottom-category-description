@@ -1,0 +1,25 @@
+{
+    "name": "atvise/bottom-category-description",
+    "description": "Placing a bottom description on the category pages",
+    "type": "magento2-module",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Atvise"
+        }
+    ],
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Atvise\\BottomCategoryDescription\\": ""
+        }
+    }
+}
